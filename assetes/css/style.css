@@ -844,6 +844,13 @@ h4 {
     border-color: rgba(13, 90, 69, 0.1);
 }
 
+.mobile-nav-links a:hover:not(.active) {
+    background: #f0f7f5;
+    color: #0d5a45;
+    border-color: rgba(13, 90, 69, 0.1);
+    transform: translateX(4px);
+}
+
 @media (max-width: 1024px) {
     .hero-grid {
         grid-template-columns: 1fr;
